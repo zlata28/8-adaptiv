@@ -1,53 +1,53 @@
 .container {
 	display: grid;
-    max-width: 751px;
-
-height: auto;
-   border: 1px solid black;
-   margin-left: 50px;
-   margin-top: 50px ;
-   
-   color: white;
-}
+    max-width: 1000px;
+	height: 600px;
+    border: 0 solid;
+    margin-left: 50px;
+    margin-top: 50px ;
+    background-color: lightblue;
+	border-radius: 8px;
+ }
 
 .wrapper {
-    max-width: 751px;
+    max-width: 750px;
     margin: 0 auto;
 }
 
 .title-card {
 	position: relative;
 	text-align: center;
-	font-size: 18px; 
+	font-size: 14px; 
 	text-transform: uppercase;
-	font-family: cursive;
-    width: 401px;
-    height: auto;
-    background-color: #A0522D;
-    margin-top: 50px;
-    color: #000080;
-	
+	text-align: left;
+	padding-left: 90px;
+    width: 800px;
+    height: 60px;
+	left: -50px;
+    background-color: chocolate;
+    margin-top: 40px;
+    color: white;
+	max-width: 750px;
 }
 
 form {
-	padding-bottom: 30px ;
 	display: flex;
+	padding-left: 40px;
 	flex-direction: column;
-	align-items: center;
+	align-items: baseline;
 }
 
 label {
 	margin: 10px 0;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	font-size: 18px;
 	
-	font-family: cursive;
+	font-size: 18px;
 }
 
 .expiry label {
 	display: inline;
+	
 	margin: 5px;
 }
 
@@ -58,26 +58,16 @@ label {
 input {
 	margin: 20px 0;
 	padding: 10px;
-	border-radius: 5px;
+	
 	border: none;
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 	font-size: 16px;
 	width: 300px;
 	max-width: 100%;
-	text-align: center;
+	
 	outline: none;
-	font-family: cursive;
-}
-
-input[type="submit"] {
-	background-color: #A0522D;
-	color: #000080;
-	cursor: pointer;
-}
-
-input[type="submit"]:hover {
-	background-color: #8B4513;
 }
 .izo{
-	background-image: url
+	background-image: url;
+	
 }
