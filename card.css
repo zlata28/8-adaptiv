@@ -6,7 +6,7 @@ height: auto;
    border: 1px solid black;
    margin-left: 50px;
    margin-top: 50px ;
-   background-image: url("moon_flag.png");
+   
    color: white;
 }
 
@@ -26,6 +26,7 @@ height: auto;
     background-color: #A0522D;
     margin-top: 50px;
     color: #000080;
+	
 }
 
 form {
@@ -76,4 +77,7 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
 	background-color: #8B4513;
+}
+.izo{
+	background-image: url
 }
