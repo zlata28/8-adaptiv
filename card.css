@@ -7,67 +7,76 @@
     margin-top: 50px ;
     background-color: lightblue;
 	border-radius: 8px;
+	
  }
 
-.wrapper {
-    max-width: 750px;
-    margin: 0 auto;
-}
-
-.title-card {
+ .title-card {
 	position: relative;
 	text-align: center;
-	font-size: 14px; 
+	font-size: 16px; 
 	text-transform: uppercase;
 	text-align: left;
 	padding-left: 90px;
-    width: 800px;
-    height: 60px;
+    width: 750px;
+    height: 80px;
 	left: -50px;
     background-color: chocolate;
     margin-top: 40px;
     color: white;
-	max-width: 750px;
+	max-width: 75%;
 }
 
 form {
 	display: flex;
 	padding-left: 40px;
 	flex-direction: column;
-	align-items: baseline;
+	border: 1px solid;
+	width: 550px;
+	height: 400px;
 }
 
 label {
-	margin: 10px 0;
+	margin: 5px 0;
 	display: flex;
 	flex-direction: column;
-	
-	font-size: 18px;
+	font-size: 20px;
 }
+
 
 .expiry label {
 	display: inline;
+	flex-direction: column;
+	align-items: baseline;
 	
-	margin: 5px;
+	
 }
 
 .expiry input {
-	width: 70px;
+	width: 100px;
+    display: inline;
+
 }
 
 input {
 	margin: 20px 0;
 	padding: 10px;
-	
 	border: none;
-	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-	font-size: 16px;
-	width: 300px;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+	font-size: 20px;
+	width: 500px;
 	max-width: 100%;
-	
 	outline: none;
+	background-color: lightblue;
+}
+form .izo{
+	display: block;
+	
+	text-align: right;
 }
 .izo{
-	background-image: url;
-	
+	width: 500px;
+	height: 500px;
+border: 1px solid;
+
+
 }
